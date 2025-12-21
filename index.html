@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate for Cats</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 40px;
+        }
+        .box {
+            background: white;
+            padding: 30px;
+            max-width: 500px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 { color: #333; }
+        p { color: #555; }
+        .donate {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Support Cats</h1>
+        <p>
+            This page accepts voluntary donations to support content related to <strong>Cats</strong>.
+            <br><br>
+            <strong>Minimum suggested donation: $0.50</strong>
+            <br><br>
+            Donations are optional and do not provide any rewards, products, services, or access to exclusive content.
+        </p>
+
+        <div class="donate">
+            <form action="https://www.paypal.com/donate" method="post" target="_blank">
+                <input type="hidden" name="business" value="greatpanamera@gmail.com">
+                <input type="hidden" name="no_recurring" value="0">
+                <input type="hidden" name="item_name" value="Support for Cats">
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="submit" value="Donate with PayPal">
+            </form>
+        </div>
+
+        <p style="font-size: 0.85em; margin-top: 20px;">
+            This is a donation-only page. No goods or services are offered in exchange.
+        </p>
+    </div>
+</body>
+</html>
