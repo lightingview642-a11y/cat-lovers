@@ -2,55 +2,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donate for Cats</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            text-align: center;
-            padding: 40px;
-        }
-        .box {
-            background: white;
-            padding: 30px;
-            max-width: 500px;
-            margin: auto;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        h1 { color: #333; }
-        p { color: #555; }
-        .donate {
-            margin-top: 20px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Cats Donation 🐱</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9fafb;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .card {
+      max-width: 540px;
+      margin: auto;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 2.5em;
+    }
+    p {
+      font-size: 1.1em;
+    }
+    .address {
+      background: #f1f5f9;
+      padding: 12px;
+      border-radius: 10px;
+      font-family: monospace;
+      word-break: break-all;
+      margin: 10px 0;
+    }
+    img {
+      width: 160px;
+      margin: 10px 0;
+    }
+    small {
+      color: #555;
+    }
+  </style>
 </head>
 <body>
-    <div class="box">
-        <h1>Support Cats</h1>
-        <p>
-            This page accepts voluntary donations to support content related to <strong>Cats</strong>.
-            <br><br>
-            <strong>Minimum suggested donation: $0.50</strong>
-            <br><br>
-            Donations are optional and do not provide any rewards, products, services, or access to exclusive content.
-        </p>
 
-        <div class="donate">
-            <form action="https://www.paypal.com/donate" method="post" target="_blank">
-                <input type="hidden" name="business" value="greatpanamera@gmail.com">
-                <input type="hidden" name="no_recurring" value="0">
-                <input type="hidden" name="item_name" value="Support for Cats">
-                <input type="hidden" name="currency_code" value="USD">
-                <input type="submit" value="Donate with PayPal">
-            </form>
-        </div>
+  <div class="card">
+    <h1>🐱 Support Cats 🐱</h1>
 
-        <p style="font-size: 0.85em; margin-top: 20px;">
-            This is a donation-only page. No goods or services are offered in exchange.
-        </p>
+    <p>
+      No rewards. No products.<br>
+      Just donate if you like cats 😸
+    </p>
+
+    <p><strong>Suggested minimum: $0.10</strong></p>
+
+    <hr>
+
+    <h3>USDT (TRC20 – Tron network)</h3>
+    <div class="address">
+      TQHoeU2jWoAJDGv9JtLFgAHYXBHZqLTMKB
     </div>
+    <!-- Place USDT QR image here -->
+    <!-- <img src="usdt-qr.png" alt="USDT TRC20 QR Code"> -->
+    <small>⚠️ Send ONLY via TRC20 network</small>
+
+    <hr>
+
+    <h3>Bitcoin (BTC)</h3>
+    <div class="address">
+      bc1qp9wq7g6ptcrg4puxxa7h20xn8kzh8yrv0vjff9
+    </div>
+    <!-- Place BTC QR image here -->
+    <!-- <img src="btc-qr.png" alt="BTC QR Code"> -->
+
+    <hr>
+
+    <small>
+      Crypto donations are voluntary and non-refundable.<br>
+      Send only the correct network.
+    </small>
+  </div>
+
 </body>
 </html>
